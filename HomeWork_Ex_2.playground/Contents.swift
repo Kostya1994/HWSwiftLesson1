@@ -23,3 +23,4 @@ func triangleHypotenuse(_ numberA: Int, _ numberB: Int) -> Double {
 func trianglePerimeter(_ numberA: Int,_ numberB: Int) -> Double {
     return (Double(numberA)) + (Double(numberB)) + triangleHypotenuse(AB,BC)
     }
+//пробую создать ветку
