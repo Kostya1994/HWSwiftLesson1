@@ -29,7 +29,8 @@ func quadraticEquation(_ a1: Int,_ b1: Int,_ c1: Int ) -> [Double]{
     if (a == 0) {
         print("Число \(a1) равно 0, введите другое число")
         return Array(repeating: 0.0, count: 2)
-    }else{
+    }else
+    {
         var arr = [Double]();
         let dis = discriminant(a1, b1, c1);//функция вычисления дискриминаты a,b,c;
             if (dis > 0.0) {
